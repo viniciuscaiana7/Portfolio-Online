@@ -320,9 +320,9 @@ footer .line-footer p a {
     top: -10px;
 }
 
-
+@media screen and (max-width: 1020px) {
    
-
+    }
 
     /* CLASSES GERAIS */
     .flex {
@@ -429,12 +429,6 @@ footer .line-footer p a {
     color: #fff;
     text-decoration: none;
     display: block;
-    padding: 20px 10px;
-    font-size: 15pt;
-}
-
-
-@media screen and (max-width: 1020px) {
-
+    padding: 20px 200px;
 }
 
