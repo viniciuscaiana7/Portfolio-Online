@@ -430,6 +430,7 @@ footer .line-footer p a {
     color: #fff;
     text-decoration: none;
     display: block;
-    padding: 20px 200px;
+    padding: 20px 20px;
+    font-size: 15pt;
 }
 
