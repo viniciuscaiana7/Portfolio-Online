@@ -321,6 +321,9 @@ footer .line-footer p a {
 }
 
 @media screen and (max-width: 1020px) {
+    .menu, .social{
+        display: none;
+    }
 
     /* CLASSES GERAIS */
     .flex {
@@ -410,6 +413,23 @@ footer .line-footer p a {
         text-align: center;
     }
 
-    
-    
 }
+/* ESTIIZAÇÃO DO MENU MOBILE */
+
+.menu-mobile{
+    background-color: #0000008c;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.menu-mobile nav a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 20px 200px;
+}
+
