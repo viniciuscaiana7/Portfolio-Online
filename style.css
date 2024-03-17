@@ -320,10 +320,9 @@ footer .line-footer p a {
     top: -10px;
 }
 
-@media screen and (max-width: 1020px) {
-    .menu, .social{
-        display: none;
-    }
+
+   
+
 
     /* CLASSES GERAIS */
     .flex {
@@ -413,7 +412,7 @@ footer .line-footer p a {
         text-align: center;
     }
 
-}
+
 /* ESTIIZAÇÃO DO MENU MOBILE */
 
 .menu-mobile{
@@ -430,6 +429,12 @@ footer .line-footer p a {
     color: #fff;
     text-decoration: none;
     display: block;
-    padding: 20px 200px;
+    padding: 20px 10px;
+    font-size: 15pt;
+}
+
+
+@media screen and (max-width: 1020px) {
+
 }
 
