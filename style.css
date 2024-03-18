@@ -388,11 +388,15 @@ footer .line-footer p a {
 }
 
 @media screen and (max-width: 1020px) {
+<<<<<<< HEAD
 
     .btn-abrir-menu{
         display: block;
     }
 
+=======
+}
+>>>>>>> eb1c95c936a12ae799d9291c00e9e41fe9fafe29
     .menu,
     .social {
         display: none;
@@ -491,4 +495,3 @@ footer .line-footer p a {
         text-align: center;
     }
 
-}
