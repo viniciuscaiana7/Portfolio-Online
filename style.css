@@ -395,7 +395,12 @@ footer .line-footer p a {
     }
     
 
+<<<<<<< Updated upstream
     .menu,.social {
+=======
+    .menu,
+    .social {
+>>>>>>> Stashed changes
         display: none;
     }
 
