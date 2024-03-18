@@ -383,7 +383,15 @@ footer .line-footer p a {
     top: -10px;
 }
 
+.btn-abrir-menu{
+    display: none;
+}
+
 @media screen and (max-width: 1020px) {
+
+    .btn-abrir-menu{
+        display: block;
+    }
 
     .menu,
     .social {
