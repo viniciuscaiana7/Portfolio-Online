@@ -384,7 +384,7 @@ footer .line-footer p a {
 }
 
 @media screen and (max-width: 1020px) {
-
+}
     .menu,
     .social {
         display: none;
@@ -483,4 +483,3 @@ footer .line-footer p a {
         text-align: center;
     }
 
-}
