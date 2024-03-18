@@ -389,11 +389,14 @@ footer .line-footer p a {
 
 @media screen and (max-width: 1020px) {
 
+<<<<<<< Updated upstream
     .btn-abrir-menu{
         display: block;
     }
 
 }
+=======
+>>>>>>> Stashed changes
     .menu,
     .social {
         display: none;
@@ -491,4 +494,11 @@ footer .line-footer p a {
     footer .line-footer {
         text-align: center;
     }
-
+    .btn-abrir-menu{
+        display: block;
+    }
+    
+   }
+.btn-abrir-menu{
+    display: none;
+}
