@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -21,7 +21,7 @@ body {
 }
 
 .flex {
-    display: flex;  
+    display: flex;
 }
 
 .btn-contato button {
@@ -393,103 +393,128 @@ footer .line-footer p a {
     display: none;
 }
 
+.portfolioo img{
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 4px;
+    margin-bottom: 70px; 
+    border-radius: 30px;
+    cursor: pointer;
+    position: relative;
+}
+
+
 @media screen and (max-width: 1020px) {
 
     .btn-abrir-menu {
         display: block;
     }
-    
 
-    .menu,.social {
+
+    .menu,
+    .social {
         display: none;
     }
 
-.menu,
-.social {
-    display: none;
+    .menu,
+    .social {
+        display: none;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    /* CLASSES GERAIS */
+    .flex {
+        flex-direction: column;
+    }
+
+    h2.titulo {
+        font-size: 34px;
+        line-height: 30px;
+    }
+
+    .topo-do-site .flex {
+        flex-direction: column-reverse;
+    }
+
+    /* CABEÇALHO */
+    .menu-desktop,
+    .btn-contato {
+        display: none;
+    }
+
+    /* topo do site */
+
+    section.topo-do-site .flex {
+        gap: 40px;
+    }
+
+    section.topo-do-site {
+        padding: 20px 8%;
+    }
+
+    .topo-do-site h1 {
+        font-size: 30px;
+    }
+
+    .topo-do-site .img-topo-site img {
+        width: 100%;
+        position: relative;
+        left: -2cm;
+    }
+
+    /* ESTILO DAS ESPECIALIDADES */
+    section.especialidades {
+        padding: 40px 8%;
+    }
+
+    /* SOBRE */
+    section.sobre {
+        padding: 80px 8%;
+    }
+
+    .sobre .txt-sobre h2 {
+        font-size: 34px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .btn-social {
+        text-align: center;
+    }
+
+    .img-sobre img {
+        width: 100%;
+    }
+
+
+    section.portfolio {
+        padding: 95px 8%;
+    }
+
+    .img-port {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    
+
+    section.portfolioo{
+        padding: 80px 8%;
+    }
+
+    
+
+    .cat {
+        width: 100%;
+        max-width: 360px;
+    }
+
+    .portfolioo img{
+        margin-left: 8px;
+    }
 }
 
-.logo {
-    width: 100%;
-}
-
-/* CLASSES GERAIS */
-.flex {
-    flex-direction: column;
-}
-
-h2.titulo {
-    font-size: 34px;
-    line-height: 30px;
-}
-
-.topo-do-site .flex {
-    flex-direction: column-reverse;
-}
-
-/* CABEÇALHO */
-.menu-desktop,
-.btn-contato {
-    display: none;
-}
-
-/* topo do site */
-
-section.topo-do-site .flex {
-    gap: 40px;
-}
-
-section.topo-do-site {
-    padding: 20px 8%;
-}
-
-.topo-do-site h1 {
-    font-size: 30px;
-}
-
-.topo-do-site .img-topo-site img {
-    width: 100%;
-    position: relative;
-    left: -2cm;
-}
-
-/* ESTILO DAS ESPECIALIDADES */
-section.especialidades {
-    padding: 40px 8%;
-}
-
-/* SOBRE */
-section.sobre {
-    padding: 80px 8%;
-}
-
-.sobre .txt-sobre h2 {
-    font-size: 34px;
-    line-height: 35px;
-    text-align: center;
-}
-
-.btn-social {
-    text-align: center;
-}
-
-.img-sobre img {
-    width: 100%;
-}
-
-/* PORTFÓLIO */
-section.portfolio {
-    padding: 80px 8%;
-}
-
-.img-port {
-    width: 100%;
-    max-width: 360px;
-    margin: 0 auto;
-}
-
-section.portfolio .flex {
-    gap: 40px;
-}
-
-}
